@@ -1,11 +1,11 @@
 # Ezorith's Latitude 3310
 This EFI is built for Dell Latitude 3310 (with touchscreen), based on OpenCore.
 
-![laptop](https://github.com/ezorith/Latitude-3310/assets/155196263/18c5a20e-7d90-46ea-82bd-221ceefcffda)
+![laptop](https://github.com/ezorith/Latitude-3310/assets/155196263/12e1ef10-b9a3-49bb-bf1d-3975d98c39de)
 
 > [!TIP]
 > Please use this EFI as reference towards building your own.</br>
-> <sup>Building EFI from scratch can be challenging, but it's also rewarding.</sup>
+> <sup>Building EFI from scratch can be challenging, but also rewarding.</sup>
 
 ## 🛟 About This Hack
     Model: MacBookPro16,3              WF+BT: Intel Wireless-AC 9560  
@@ -37,7 +37,7 @@ This EFI is built for Dell Latitude 3310 (with touchscreen), based on OpenCore.
 -  DVMT 64MB: `setup_var 0xA10 0x02`
 
 > [!IMPORTANT]
-> BIOS modification must be done prior first boot. Use either `RU.efi` or `modGRUBShell.efi`
+> BIOS modification must be done prior to first boot. Use either `RU.efi` or `modGRUBShell.efi`
 
 ## 🪄 Enhancements
 - [macOS HiDPI](https://github.com/xzhih/one-key-hidpi) - enables Retina display scaling.
@@ -45,10 +45,10 @@ This EFI is built for Dell Latitude 3310 (with touchscreen), based on OpenCore.
 - [Secure Boot](https://github.com/perez987/OpenCore-and-UEFI-Secure-Boot) - allows Secure Boot to be enabled for additional security.
 
 ## 🐻 Bear in mind
-- `ShowPicker` is enabled for multiboot. Disable if desired.
+- `ShowPicker` is enabled by default for multiboot.
 - `NVMeFix.kext` is disabled as per hardware. Enable if required.
 - This build uses `AirportItlwm.kext` which doesn't support AirDrop/Sidecar/Handoff.
 - Power button requires SSDT patching. To bring up power dialog, hold `ctrl` and press power.
-- `ACPI` > `Quirks ` > `EnableForAll` boolean is specific to OpenCore-Mod. Allows multiboot without injecting SSDT patches in other OS's. Safe to remove if using OpenCore official.
+- `ACPI` > `Quirks ` > `EnableForAll` boolean is specific to OpenCore-Mod. Allows multiboot without injecting SSDTs to other OS's. Safe to remove if using OpenCore official.
 
 <sub>🌟 Special thanks to @silvercreeper356 for their help!</sub>
