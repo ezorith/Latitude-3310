@@ -704,11 +704,11 @@
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAClPg==</data>
-				<key>backlight-smoother-interval	</key>
+				<key>backlight-smoother-interval</key>
 				<data>BwAAAA==</data>
-				<key>backlight-smoother-steps	</key>
+				<key>backlight-smoother-steps</key>
 				<data>IwAAAA==</data>
-				<key>backlight-smoother-threshold	</key>
+				<key>backlight-smoother-threshold</key>
 				<data>LAEAAA==</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
@@ -732,8 +732,6 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAYA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>igfxfw</key>
